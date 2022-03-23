@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap'); 
+
+:root {
+    --primary-color: hsl(182, 100%, 20%);
+    --primary-color-darker: hsl(182, 99%, 40%);
+
+}
+
+* {
+    box-sizing:border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: "gotham", sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    color:rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0, 20px;
+
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color)
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color:blanchedalmond;
+    font-size: 18px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+
+
+form button:active {
+    background: turquoise;
+}
+
+.paragrafo-resultado, .bad {
+    background: yellow;
+    padding: 10px 20px;
+}
+
+.bad {
+    background: rgb(255, 63, 63);
+
+}
+
+.relogio {
+    font-size: 3em;
+}
+
+.pausado {
+    color : red;
+}
+
+.container {
+    max-width: 440px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.699);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    border-color: rgb(173, 173, 173);
+    font-family: courier, sans-serif; 
+    width: 100%;
+    text-align: right;
+    background-color: rgb(251, 252, 191);
+}
+
+.btn{
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    border: none;
+    background:rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background:rgb(175, 175, 175);
+}
+
+.btn-eq {
+    background:rgb(253, 255, 121);
+
+}
+
+.btn-eq:hover {
+    background:rgb(252, 154, 62);
+}
+
+.titulo {
+    font-size: 2.3em;
+
+}
